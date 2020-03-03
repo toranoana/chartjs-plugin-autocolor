@@ -1,0 +1,33 @@
+{
+  "name": "chartjs-plugin-autocolor",
+  "version": "0.0.1",
+  "description": "Chart.js plugin that automatically sets colors",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toranoana/chartjs-plugin-autocolor.git"
+  },
+  "scripts": {
+    "lintfix": "./node_modules/.bin/eslint \"src/**/*.js\" --fix",
+    "linter": "./node_modules/.bin/eslint \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chart.js",
+    "plugin",
+    "color"
+  ],
+  "author": "Hirotaka Kouno",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "chart.js": "^2.9.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "chart.js": ">= 2.9.3  < 3"
+  }
+}
